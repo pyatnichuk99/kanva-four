@@ -8,9 +8,8 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
   "description": "",
-  "devDependencies": {
+  "dependencies": {
     "body-parser": "*",
     "express": "*",
     "express-handlebars": "^5.3.3",
