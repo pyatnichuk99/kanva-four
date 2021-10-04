@@ -11,12 +11,23 @@
 
 @font-face {
   font-family: 'Futura PT';
-  src: url('FuturaPT-Bold.eot');
+  src: url('../fonts/FuturaPT-Bold.eot');
   src: local('Futura PT Bold'), local('FuturaPT-Bold'),
-      url('FuturaPT-Bold.eot?#iefix') format('embedded-opentype'),
-      url('FuturaPT-Bold.woff') format('woff'),
-      url('FuturaPT-Bold.ttf') format('truetype');
+      url('../fonts/FuturaPT-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/FuturaPT-Bold.woff') format('woff'),
+      url('../fonts/FuturaPT-Bold.ttf') format('truetype');
   font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura PT Book';
+  src: url('../fonts/FuturaPT-Book.eot');
+  src: local('Futura PT Book'), local('FuturaPT-Book'),
+      url('../fonts/FuturaPT-Book.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/FuturaPT-Book.woff') format('woff'),
+      url('../fonts/FuturaPT-Book.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -131,11 +142,11 @@
   .journal-description p{
     text-align: center;
     font-size: 18px;
-    font-family: 'Futura PT Extra';
-    font-weight: 700;
+    font-family: 'Futura PT';
+    font-weight: bold;
   }
   .journal-price{
-    font-family: 'Futura PT';
+    font-family: 'Futura PT Book';
     display: flex;
     justify-content: center;
   }
@@ -150,7 +161,7 @@
     margin-left: 5px;
   }
   .journal-count__text{
-    font-family: 'Futura PT';
+    font-family: 'Futura PT Book';
   }
   .company-info{
     background:#c9e6ff;
@@ -179,18 +190,17 @@
     display:block;
     font-size: 1em;
     font-weight: bold;
-    font-family: 'Futura PT Extra';
+    font-family: 'Futura PT';
   }
   
   .contact form p {
     margin-bottom: 10px;
-    margin-top: 20px;
-    
+    margin-top: 20px;   
 
   }
   .poshta_description{
     font-size: 0.9em;
-    font-family: 'Futura PT';
+    font-family: 'Futura PT Book';
   }
   
   .contact form .full{
@@ -211,14 +221,14 @@
     width:100%;
     padding: 0.2em;
     border:1px solid #c9e6ff;
-    font-family: 'Futura PT';
+    font-family: 'Futura PT Book';
   }
   
   .contact form button{
     background: #000;
-    font-family: 'Futura PT Extra';
+    font-family: 'Futura PT';
     color: #fff;
-    font-weight: 700;
+    font-weight: bold;
     border:0;
     text-transform: uppercase;
     margin-bottom: 20px;
