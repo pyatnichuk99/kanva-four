@@ -131,9 +131,11 @@
   .journal-description p{
     text-align: center;
     font-size: 18px;
+    font-family: 'Futura PT Extra';
     font-weight: 700;
   }
   .journal-price{
+    font-family: 'Futura PT';
     display: flex;
     justify-content: center;
   }
@@ -146,6 +148,9 @@
   }
   .journal-price__text{
     margin-left: 5px;
+  }
+  .journal-count__text{
+    font-family: 'Futura PT';
   }
   .company-info{
     background:#c9e6ff;
@@ -174,6 +179,7 @@
     display:block;
     font-size: 1em;
     font-weight: bold;
+    font-family: 'Futura PT Extra';
   }
   
   .contact form p {
@@ -184,6 +190,7 @@
   }
   .poshta_description{
     font-size: 0.9em;
+    font-family: 'Futura PT';
   }
   
   .contact form .full{
@@ -204,10 +211,12 @@
     width:100%;
     padding: 0.2em;
     border:1px solid #c9e6ff;
+    font-family: 'Futura PT';
   }
   
   .contact form button{
     background: #000;
+    font-family: 'Futura PT Extra';
     color: #fff;
     font-weight: 700;
     border:0;
