@@ -323,3 +323,7 @@
     display: block;
     border: 10px solid #000;
   }
+
+.carousel-indicators{
+  min-width: 10px!important;
+}
