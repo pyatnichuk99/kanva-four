@@ -324,6 +324,6 @@
     border: 10px solid #000;
   }
 
-.carousel-indicators{
+.carousel-indicators button{
   min-width: 10px!important;
 }
