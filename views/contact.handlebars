@@ -21,7 +21,6 @@
 </head>
 <body>
   <div class="container">
-    {{!-- <h1 class="brand"><span>Acme</span> Web Design</h1> --}}
     <h1 class="brand">
       <img class="brand_logo" src="../public/img/logo_two_issue.png" alt="">
     </h1>
@@ -69,6 +68,24 @@
               <div class="carousel-item">
                 <img class="carousel-image w-100" src="../public/img/11.jpg" class="d-block " alt="...">
               </div>
+              <div class="carousel-item">
+                <img class="carousel-image w-100" src="../public/img/12.jpg" class="d-block " alt="...">
+              </div>
+              <div class="carousel-item">
+                <img class="carousel-image w-100" src="../public/img/13.jpg" class="d-block " alt="...">
+              </div>
+              <div class="carousel-item">
+                <img class="carousel-image w-100" src="../public/img/14.jpg" class="d-block " alt="...">
+              </div>
+              <div class="carousel-item">
+                <img class="carousel-image w-100" src="../public/img/15.jpg" class="d-block " alt="...">
+              </div>
+              <div class="carousel-item">
+                <img class="carousel-image w-100" src="../public/img/16.jpg" class="d-block " alt="...">
+              </div>
+              <div class="carousel-item">
+                <img class="carousel-image w-100" src="../public/img/17.jpg" class="d-block " alt="...">
+              </div>
             </div> 
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -82,9 +99,28 @@
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="8" aria-label="Slide 9"></button>
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="9" aria-label="Slide 10"></button>
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="10" aria-label="Slide 11"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="11" aria-label="Slide 12"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="12" aria-label="Slide 13"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="13" aria-label="Slide 14"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="14" aria-label="Slide 15"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="15" aria-label="Slide 16"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="16" aria-label="Slide 17"></button>
               {{!-- <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="11" aria-label="Slide 11"></button> --}}
-            </div>           
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button> 
+                    
           </div>
+
+
+
+
           <div class="journal">
             <div class="journal-description">
               <p>Журнал KANVA 4 випуск</p>
@@ -135,7 +171,7 @@
             <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="send-form" type="submit">ЗАМОВИТИ</button>
           </p>
           <div class="link-first">
-            <a href="https://kanva-pay.herokuapp.com" target="_blank"  rel="noopener noreferrer">ЗАМОВИТИ 1 ВИПУСК</a>
+            <a href="https://kanvajournal-pay-app.herokuapp.com/" target="_blank"  rel="noopener noreferrer">ЗАМОВИТИ 3 ВИПУСК</a>
           </div>
             {{!-- <button  class="open_first_issue border border-dark" type="submit">ЗАМОВИТИ 1 ВИПУСК </button> --}}
           
@@ -174,7 +210,7 @@
           </div>
           <div class="modal-body text-center">
             <h4>Дякуємо</h4>	
-            <p>Очікуйте відповіді від оператора</p>
+            {{!-- <p>Очікуйте відповіді від оператора</p> --}}
             <button class="btn btn-success" data-bs-dismiss="modal"><span>Закрити</span> </button>
           </div>
         </div>
