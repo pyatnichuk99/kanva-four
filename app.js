@@ -28,7 +28,7 @@ app.get('/', (req, res) => {
 
 app.post('/send', (req, res) => {
   const output = `
-    <p>Замовлення журналу KANVA 2 випуск</p>
+    <p>Замовлення журналу KANVA 4 випуск</p>
     <h3>Контактні дані:</h3>
     <ul>  
       <li>Прізвище та ім‘я: ${req.body.name}</li>
@@ -60,7 +60,7 @@ app.post('/send', (req, res) => {
   let mailOptions = {
       from: 'sdfgsdfgsdfg sdfgsdfg', // sender address
       to: 'kanvaif2020@gmail.com', // list of receivers
-      subject: 'Замовлення 2 випуску', // Subject line
+      subject: 'Замовлення 4 випуску', // Subject line
       text: 'Hello world?', // plain text body
       html: output // html body
   };
